@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Unity 6000.3.8f1 with the following packages:
+Unity 6000.3.8f1. Download the following packages:
 
 2D <br>
 Burst<br>
@@ -21,3 +21,5 @@ uGUI<br>
 Universal Render Pipeline<br>
 Visual Scripting<br>
 Visual Studio Editor<br>
+
+After opening the project, go to Edit > Project Settings > Graphics. Change the Default Render Pipeline to UniversalRP. Then, go to Quality and change Render Pipeline Asset to UniversalRP. This will make the game scene visible in your editor.
