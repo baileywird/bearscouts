@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de02f9e1d18f588468e474319d09a723, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.ShaderGraph.Editor::UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+  m_EditorClassIdentifier: 
   shaderVariantLimit: 2048
   overrideShaderVariantLimit: 0
   customInterpolatorErrorThreshold: 32

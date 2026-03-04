@@ -1,4 +1,0 @@
-repository "Bear_Scouts/Bear_Scouts@1375208868445@cloud"
-  path "/"
-    br "/main"
-    co "/main"
