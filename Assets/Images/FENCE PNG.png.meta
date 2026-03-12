@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 06f99144011ae7f44b790c1f594eaefe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5981762726828183838
+    second: FENCE PNG_0
+  - first:
+      213: -3794452746417891916
+    second: FENCE PNG_1
+  - first:
+      213: -5893331224447365986
+    second: FENCE PNG_2
+  - first:
+      213: -6555328149746854410
+    second: FENCE PNG_3
+  - first:
+      213: 1156593069100224888
+    second: FENCE PNG_4
+  - first:
+      213: 2688173708464277286
+    second: FENCE PNG_5
+  - first:
+      213: -3365282981114488794
+    second: FENCE PNG_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FENCE PNG_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 424
+        width: 135
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -67.5, y: -76}
+        - {x: 67.5, y: -76}
+        - {x: 67.5, y: -59}
+        - {x: 60.5, y: -59}
+        - {x: 60.5, y: -67}
+        - {x: -60.5, y: -67}
+        - {x: -60.5, y: 76}
+        - {x: -67.5, y: 76}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11144fd18d730350800000000000000
+      internalID: 5981762726828183838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 424
+        width: 119
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 52.5, y: -67}
+        - {x: -52.5, y: -67}
+        - {x: -52.5, y: -59}
+        - {x: -59.5, y: -59}
+        - {x: -59.5, y: -67}
+        - {x: -59.5, y: -76}
+        - {x: 59.5, y: -76}
+        - {x: 59.5, y: 76}
+        - {x: 52.5, y: 76}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b591ccb455675bc0800000000000000
+      internalID: -3794452746417891916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 127
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cc81fb97ea63ea0800000000000000
+      internalID: -5893331224447365986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 207
+        width: 223
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -111.5, y: -4.5}
+        - {x: -45.5, y: -4.5}
+        - {x: -45.5, y: -3.5}
+        - {x: -44.5, y: -3.5}
+        - {x: -44.5, y: -1.5}
+        - {x: -42.5, y: -1.5}
+        - {x: -42.5, y: -3.5}
+        - {x: -41.5, y: -3.5}
+        - {x: -41.5, y: -4.5}
+        - {x: 7.5, y: -4.5}
+        - {x: 7.5, y: 4.5}
+        - {x: 7.5, y: 84.5}
+        - {x: 0.5, y: 84.5}
+        - {x: 0.5, y: 4.5}
+        - {x: -104.5, y: 4.5}
+        - {x: -104.5, y: 84.5}
+        - {x: -111.5, y: 84.5}
+        - {x: -111.5, y: 4.5}
+      - - {x: -111.5, y: -84.5}
+        - {x: -56.5, y: -84.5}
+        - {x: -56.5, y: -75.5}
+        - {x: -104.5, y: -75.5}
+        - {x: -104.5, y: -52.5}
+        - {x: -65.5, y: -52.5}
+        - {x: -65.5, y: -54.5}
+        - {x: -63.5, y: -54.5}
+        - {x: -63.5, y: -55.5}
+        - {x: -62.5, y: -55.5}
+        - {x: -62.5, y: -56.5}
+        - {x: -57.5, y: -56.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -52.5, y: -57.5}
+        - {x: -52.5, y: -56.5}
+        - {x: -51.5, y: -56.5}
+        - {x: -51.5, y: -58.5}
+        - {x: -50.5, y: -58.5}
+        - {x: -50.5, y: -67.5}
+        - {x: -51.5, y: -67.5}
+        - {x: -51.5, y: -71.5}
+        - {x: -52.5, y: -71.5}
+        - {x: -52.5, y: -72.5}
+        - {x: -55.5, y: -72.5}
+        - {x: -55.5, y: -73.5}
+        - {x: -59.5, y: -73.5}
+        - {x: -59.5, y: -74.5}
+        - {x: -58.5, y: -74.5}
+        - {x: -58.5, y: -75.5}
+        - {x: -48.5, y: -75.5}
+        - {x: -48.5, y: -76.5}
+        - {x: -45.5, y: -76.5}
+        - {x: -45.5, y: -78.5}
+        - {x: -44.5, y: -78.5}
+        - {x: -44.5, y: -80.5}
+        - {x: -42.5, y: -80.5}
+        - {x: -42.5, y: -79.5}
+        - {x: -41.5, y: -79.5}
+        - {x: -41.5, y: -77.5}
+        - {x: -40.5, y: -77.5}
+        - {x: -40.5, y: -74.5}
+        - {x: -38.5, y: -74.5}
+        - {x: -38.5, y: -75.5}
+        - {x: -36.5, y: -75.5}
+        - {x: -36.5, y: -76.5}
+        - {x: -33.5, y: -76.5}
+        - {x: -33.5, y: -75.5}
+        - {x: -31.5, y: -75.5}
+        - {x: -31.5, y: -74.5}
+        - {x: -27.5, y: -74.5}
+        - {x: -27.5, y: -72.5}
+        - {x: -34.5, y: -72.5}
+        - {x: -34.5, y: -71.5}
+        - {x: -36.5, y: -71.5}
+        - {x: -36.5, y: -66.5}
+        - {x: -37.5, y: -66.5}
+        - {x: -37.5, y: -61.5}
+        - {x: -36.5, y: -61.5}
+        - {x: -36.5, y: -58.5}
+        - {x: -35.5, y: -58.5}
+        - {x: -35.5, y: -56.5}
+        - {x: -34.5, y: -56.5}
+        - {x: -34.5, y: -57.5}
+        - {x: -29.5, y: -57.5}
+        - {x: -29.5, y: -56.5}
+        - {x: -24.5, y: -56.5}
+        - {x: -24.5, y: -55.5}
+        - {x: -23.5, y: -55.5}
+        - {x: -23.5, y: -54.5}
+        - {x: -21.5, y: -54.5}
+        - {x: -21.5, y: -52.5}
+        - {x: 111.5, y: -52.5}
+        - {x: 111.5, y: -43.5}
+        - {x: -28.5, y: -43.5}
+        - {x: -28.5, y: -42.5}
+        - {x: -26.5, y: -42.5}
+        - {x: -26.5, y: -41.5}
+        - {x: -25.5, y: -41.5}
+        - {x: -25.5, y: -40.5}
+        - {x: -24.5, y: -40.5}
+        - {x: -24.5, y: -39.5}
+        - {x: -23.5, y: -39.5}
+        - {x: -23.5, y: -38.5}
+        - {x: -22.5, y: -38.5}
+        - {x: -22.5, y: -37.5}
+        - {x: -26.5, y: -37.5}
+        - {x: -26.5, y: -36.5}
+        - {x: -29.5, y: -36.5}
+        - {x: -29.5, y: -35.5}
+        - {x: -32.5, y: -35.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -34.5, y: -34.5}
+        - {x: -34.5, y: -33.5}
+        - {x: -36.5, y: -33.5}
+        - {x: -36.5, y: -31.5}
+        - {x: -37.5, y: -31.5}
+        - {x: -37.5, y: -30.5}
+        - {x: -33.5, y: -30.5}
+        - {x: -33.5, y: -29.5}
+        - {x: -31.5, y: -29.5}
+        - {x: -31.5, y: -28.5}
+        - {x: -30.5, y: -28.5}
+        - {x: -30.5, y: -27.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -28.5, y: -26.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -31.5, y: -25.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -33.5, y: -24.5}
+        - {x: -33.5, y: -23.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -36.5, y: -22.5}
+        - {x: -36.5, y: -21.5}
+        - {x: -37.5, y: -21.5}
+        - {x: -37.5, y: -19.5}
+        - {x: -38.5, y: -19.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -39.5, y: -17.5}
+        - {x: -39.5, y: -16.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -38.5, y: -15.5}
+        - {x: -36.5, y: -15.5}
+        - {x: -36.5, y: -14.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -37.5, y: -12.5}
+        - {x: -37.5, y: -11.5}
+        - {x: -39.5, y: -11.5}
+        - {x: -39.5, y: -9.5}
+        - {x: -40.5, y: -9.5}
+        - {x: -40.5, y: -7.5}
+        - {x: -41.5, y: -7.5}
+        - {x: -41.5, y: -3.5}
+        - {x: -42.5, y: -3.5}
+        - {x: -42.5, y: -1.5}
+        - {x: -44.5, y: -1.5}
+        - {x: -44.5, y: -3.5}
+        - {x: -45.5, y: -3.5}
+        - {x: -45.5, y: -7.5}
+        - {x: -46.5, y: -7.5}
+        - {x: -46.5, y: -9.5}
+        - {x: -47.5, y: -9.5}
+        - {x: -47.5, y: -11.5}
+        - {x: -49.5, y: -11.5}
+        - {x: -49.5, y: -12.5}
+        - {x: -51.5, y: -12.5}
+        - {x: -51.5, y: -14.5}
+        - {x: -50.5, y: -14.5}
+        - {x: -50.5, y: -15.5}
+        - {x: -48.5, y: -15.5}
+        - {x: -48.5, y: -16.5}
+        - {x: -47.5, y: -16.5}
+        - {x: -47.5, y: -17.5}
+        - {x: -48.5, y: -17.5}
+        - {x: -48.5, y: -19.5}
+        - {x: -49.5, y: -19.5}
+        - {x: -49.5, y: -21.5}
+        - {x: -50.5, y: -21.5}
+        - {x: -50.5, y: -22.5}
+        - {x: -51.5, y: -22.5}
+        - {x: -51.5, y: -23.5}
+        - {x: -53.5, y: -23.5}
+        - {x: -53.5, y: -24.5}
+        - {x: -55.5, y: -24.5}
+        - {x: -55.5, y: -25.5}
+        - {x: -58.5, y: -25.5}
+        - {x: -58.5, y: -26.5}
+        - {x: -57.5, y: -26.5}
+        - {x: -57.5, y: -27.5}
+        - {x: -56.5, y: -27.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -55.5, y: -28.5}
+        - {x: -55.5, y: -29.5}
+        - {x: -53.5, y: -29.5}
+        - {x: -53.5, y: -30.5}
+        - {x: -49.5, y: -30.5}
+        - {x: -49.5, y: -31.5}
+        - {x: -50.5, y: -31.5}
+        - {x: -50.5, y: -33.5}
+        - {x: -52.5, y: -33.5}
+        - {x: -52.5, y: -34.5}
+        - {x: -54.5, y: -34.5}
+        - {x: -54.5, y: -35.5}
+        - {x: -57.5, y: -35.5}
+        - {x: -57.5, y: -36.5}
+        - {x: -60.5, y: -36.5}
+        - {x: -60.5, y: -37.5}
+        - {x: -64.5, y: -37.5}
+        - {x: -64.5, y: -38.5}
+        - {x: -63.5, y: -38.5}
+        - {x: -63.5, y: -39.5}
+        - {x: -62.5, y: -39.5}
+        - {x: -62.5, y: -40.5}
+        - {x: -61.5, y: -40.5}
+        - {x: -61.5, y: -41.5}
+        - {x: -60.5, y: -41.5}
+        - {x: -60.5, y: -42.5}
+        - {x: -58.5, y: -42.5}
+        - {x: -58.5, y: -43.5}
+        - {x: -111.5, y: -43.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5583887cbc605a0800000000000000
+      internalID: -6555328149746854410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 239
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871d569b44b0d0010800000000000000
+      internalID: 1156593069100224888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 112
+        width: 135
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627ce8bcebf4e4520800000000000000
+      internalID: 2688173708464277286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FENCE PNG_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 23
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d00e65fc1c41d0800000000000000
+      internalID: -3365282981114488794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0485b360a8f9bd44a252d48a1a0588b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FENCE PNG_0: 5981762726828183838
+      FENCE PNG_1: -3794452746417891916
+      FENCE PNG_2: -5893331224447365986
+      FENCE PNG_3: -6555328149746854410
+      FENCE PNG_4: 1156593069100224888
+      FENCE PNG_5: 2688173708464277286
+      FENCE PNG_6: -3365282981114488794
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
