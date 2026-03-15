@@ -5,10 +5,12 @@ public class TabController : MonoBehaviour
 {
     public Image[] tabImages;
     public GameObject[] pages;
+    public InventoryController inventoryController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        inventoryController.PopulateInventory();
         ActivateTab(0);
     }
 
