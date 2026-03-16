@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using System.Security.Cryptography;
+using System.Security.Permissions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -34,7 +35,17 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         canvasGroup.alpha = 1f; //item is no longer transparent
 
         Slot dropSlot = eventData.pointerEnter?.GetComponent<Slot>(); //slot where item is dropped
+        if (dropSlot == null)
+        {
+            GameObject dropItem = eventData.pointerEnter;
+            if (dropItem != null)
+            {
+                dropSlot = dropItem.GetComponentInParent<Slot>();
+            }
+        }
+
         Slot originalSlot = originalParent.GetComponent<Slot>();
+   
 
         if (dropSlot != null)
         {
