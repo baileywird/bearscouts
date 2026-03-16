@@ -2256,6 +2256,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 398185768207262054, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 398185768207262054, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 398185768207262054, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21960786
+      objectReference: {fileID: 0}
     - target: {fileID: 937592509967148345, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2383,6 +2395,18 @@ PrefabInstance:
     - target: {fileID: 2568466451395374679, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -26.613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670952146469988272, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670952146469988272, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3670952146469988272, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4682047642821102463, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_text
@@ -2546,15 +2570,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6800641314995179815, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 601.4216
+      value: 592.35
       objectReference: {fileID: 0}
     - target: {fileID: 6800641314995179815, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.010572
       objectReference: {fileID: 0}
     - target: {fileID: 6800641314995179815, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -57.7636
+      value: -53.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845354984777405641, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845354984777405641, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845354984777405641, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 7178528349683693722, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_fontSize
@@ -2563,6 +2599,18 @@ PrefabInstance:
     - target: {fileID: 7178528349683693722, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
       propertyPath: m_enableAutoSizing
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556444755228096053, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556444755228096053, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556444755228096053, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2333761883997295287, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
@@ -2675,7 +2723,6 @@ GameObject:
   - component: {fileID: 147166382}
   - component: {fileID: 147166381}
   - component: {fileID: 147166379}
-  - component: {fileID: 147166383}
   - component: {fileID: 147166384}
   m_Layer: 5
   m_Name: MapTab
@@ -2742,35 +2789,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &147166383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147166378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
-          m_MethodName: ActivateTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &147166384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2794,8 +2812,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.79607844, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 0.4669811, b: 0.4669811, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.5771903, g: 0.9433962, b: 0.35154858, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2811,7 +2829,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1513301047}
+  m_TargetGraphic: {fileID: 147166379}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -3290,6 +3308,11 @@ Sprite:
   m_Bones: []
   m_ScriptableObjects: []
   m_SpriteID: 
+--- !u!1 &177371466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8348139224017808628, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+  m_PrefabInstance: {fileID: 57340864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!213 &259224775
 Sprite:
   m_ObjectHideFlags: 0
@@ -6578,7 +6601,6 @@ GameObject:
   - component: {fileID: 821118424}
   - component: {fileID: 821118423}
   - component: {fileID: 821118421}
-  - component: {fileID: 821118425}
   - component: {fileID: 821118426}
   m_Layer: 5
   m_Name: InventoryTab
@@ -6645,35 +6667,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &821118425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821118420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
-          m_MethodName: ActivateTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &821118426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6697,8 +6690,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.79607844, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 0.4669811, b: 0.4669811, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.5771903, g: 0.9433962, b: 0.35154858, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6714,7 +6707,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1513301047}
+  m_TargetGraphic: {fileID: 821118421}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -11501,7 +11494,6 @@ GameObject:
   - component: {fileID: 1252095009}
   - component: {fileID: 1252095012}
   - component: {fileID: 1252095011}
-  - component: {fileID: 1252095013}
   - component: {fileID: 1252095014}
   m_Layer: 5
   m_Name: SettingsTab
@@ -11568,35 +11560,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252095008}
   m_CullTransparentMesh: 1
---- !u!114 &1252095013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252095008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
-          m_MethodName: ActivateTab
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &1252095014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11620,8 +11583,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.79607844, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 0.4669811, b: 0.4669811, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.5771903, g: 0.9433962, b: 0.35154858, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -11637,7 +11600,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1513301047}
+  m_TargetGraphic: {fileID: 1252095011}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -11789,6 +11752,11 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &1371989000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4900777495672451737, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+  m_PrefabInstance: {fileID: 57340864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1462249721
 GameObject:
   m_ObjectHideFlags: 0
@@ -11866,6 +11834,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &1517941797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1946653418322664283, guid: 6872b755661a1dd42aec51d6da561c41, type: 3}
+  m_PrefabInstance: {fileID: 57340864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1541519456
 GameObject:
   m_ObjectHideFlags: 0
@@ -12829,7 +12802,6 @@ GameObject:
   - component: {fileID: 1729018517}
   - component: {fileID: 1729018520}
   - component: {fileID: 1729018521}
-  - component: {fileID: 1729018522}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13019,18 +12991,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.16, y: 0.23}
   m_EdgeRadius: 0
---- !u!114 &1729018522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729018515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c279605095f741a4c899691b0151e89e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &1770193086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14490,7 +14450,12 @@ MonoBehaviour:
   - {fileID: 821118421}
   - {fileID: 147166379}
   - {fileID: 1252095011}
-  pages: []
+  pages:
+  - {fileID: 177371466}
+  - {fileID: 1190530774}
+  - {fileID: 1371989000}
+  - {fileID: 1517941797}
+  inventoryController: {fileID: 1964852623}
 --- !u!1 &1999602739
 GameObject:
   m_ObjectHideFlags: 0
@@ -14995,8 +14960,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.79607844, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 1, g: 0.4669811, b: 0.4669811, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.5771903, g: 0.9433962, b: 0.35154858, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
