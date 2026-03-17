@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
+using System.Diagnostics;
 using System.Security.Permissions;
 using UnityEngine;
+using System.Security.Cryptography;
 
 public class InventoryController : MonoBehaviour
 {
@@ -19,16 +20,26 @@ public class InventoryController : MonoBehaviour
     {
         itemDictionary = FindObjectOfType<ItemDictionary>();
 
-     /*   for (int i = 0; i < slotCount; i++)
+        for (int i = 0; i < slotCount; i++)
         {
-            Slot slot = Instantiate(slotPrefab, inventoryPanel.transform).GetComponent<slot>();
-            if (i < itemPrefabs.Length)
+            Slot slot = Instantiate(slotPrefab, inventoryPanel.transform).GetComponent<Slot>();
+        }
+    }
+    public bool AddItem(GameObject itemPrefab)
+    {
+        //look for empty slot
+        foreach(Transform slotTransform in inventoryPanel.transform)
+        {
+            Slot slot = slotTransform.GetComponent<Slot>();
+            if (slot != null && slot.currentItem == null)
             {
-                GameObject item = Instantiate(itemPrefabs[i], slot.transform);
-                item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero; //center item within slot
-                slot.currentItem = item;
+                GameObject newItem = Instantiate(itemPrefab, slotTransform);
+                newItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+                slot.currentItem = newItem;
+                return true;
             }
-        } */
+        }
+        return false;
     }
     public List<InventorySaveData> GetInventoryItems()
     {
