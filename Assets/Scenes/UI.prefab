@@ -1242,6 +1242,7 @@ MonoBehaviour:
   - {fileID: 652039540861420950}
   - {fileID: 4900777495672451737}
   - {fileID: 1946653418322664283}
+  inventoryController: {fileID: 0}
 --- !u!1 &8348139224017808628
 GameObject:
   m_ObjectHideFlags: 0
