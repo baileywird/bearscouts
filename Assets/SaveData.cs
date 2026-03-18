@@ -7,6 +7,6 @@ using UnityEngine;
 public class SaveData
 {
     public Vector3 playerPosition;
-    //ADD MAP BOUNDARIES STRING WHEN WE HAVE THEM
+    public string mapBoundary;
     public List<InventorySaveData> inventorySaveData;
 }

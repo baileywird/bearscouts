@@ -1,3 +1,6 @@
+using Cinemachine;
+using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
@@ -19,10 +22,10 @@ public class SaveController : MonoBehaviour
     public void SaveGame()
     {
         SaveData saveData = new SaveData
-        { 
+        {
            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
-           inventorySaveData = inventoryController.GetInventoryItems()
-            //, MAP BOUNDARY WHEN CREATED
+           inventorySaveData = inventoryController.GetInventoryItems(),
+           mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
     }
@@ -33,7 +36,7 @@ public class SaveController : MonoBehaviour
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
-            //, MAP BOUNDARY WHEN CREATED
+            FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
 
             inventoryController.SetInventoryItems(saveData.inventorySaveData);
         }

@@ -28,7 +28,7 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         originalParent = transform.parent; //save og parent slot
         transform.SetParent(transform.root); //above other canvas layers
         canvasGroup.blocksRaycasts = false;
-        canvasGroup.alpha = .6f; //item becomes semi-transparent during drag
+        canvasGroup.alpha = 0.6f; //item becomes semi-transparent during drag
     }
 
     public void OnDrag(PointerEventData eventData)
