@@ -24,8 +24,8 @@ public class SaveController : MonoBehaviour
         SaveData saveData = new SaveData
         {
            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
-           inventorySaveData = inventoryController.GetInventoryItems(),
-           mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name
+           mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name,
+           inventorySaveData = inventoryController.GetInventoryItems()
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
     }
