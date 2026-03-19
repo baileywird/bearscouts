@@ -103,7 +103,7 @@ TextureImporter:
         x: 6
         y: 1
         width: 34
-        height: 16
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
         x: 54
         y: 1
         width: 34
-        height: 18
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,7 +147,7 @@ TextureImporter:
         x: 102
         y: 1
         width: 34
-        height: 20
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,12 +166,12 @@ TextureImporter:
       name: polarSleeping_3
       rect:
         serializedVersion: 2
-        x: 141
-        y: 18
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 114
+        y: 15
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: -4.45166, y: 0.22118998}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,6 +316,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: polarSleeping_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 2.0167236, y: -1.3736004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415c43afed4b44409d23ac15a592dca
+      internalID: -766387086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polarSleeping_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 15
+        width: 2
+        height: 2
+      alignment: 9
+      pivot: {x: 0.5, y: -0.14683914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51373ba319902434fbd98ab94532294c
+      internalID: 959071335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -334,6 +378,8 @@ TextureImporter:
     nameFileIdTable:
       polarSleeping_0: -1914435864
       polarSleeping_1: -1309280528
+      polarSleeping_10: -766387086
+      polarSleeping_11: 959071335
       polarSleeping_2: -1916666208
       polarSleeping_3: -411964175
       polarSleeping_4: -347283854
