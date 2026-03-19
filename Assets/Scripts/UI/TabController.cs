@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,7 +7,6 @@ public class TabController : MonoBehaviour
 {
     public Image[] tabImages;
     public GameObject[] pages;
-    public InventoryController inventoryController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
