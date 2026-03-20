@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfcfa6664385964e980de92618d8135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  ID: 0
-  Name: 
+  ID: 1
+  Name: Stick
   quantity: 1
 --- !u!212 &2001373105153591677
 SpriteRenderer:

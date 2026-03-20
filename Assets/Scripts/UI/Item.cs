@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -9,6 +11,16 @@ public class Item : MonoBehaviour
     public int quantity = 1;
 
     private TMP_Text quantityText;
+
+
+    public virtual void Pickup()
+    {
+        Sprite itemIcon = GetComponent<Image>().sprite;
+        if(ItemPickupUIController.Instance != null)
+        {
+            ItemPickupUIController.Instance.ShowItemPickup(Name, itemIcon);
+        }
+    }
 
     private void Awake()
     {
