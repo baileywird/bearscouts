@@ -4592,7 +4592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d0a7b97f131e4a4cac286e0850df55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WorldTime
-  _dayLength: 300
+  _dayLength: 100
 --- !u!4 &151232273
 Transform:
   m_ObjectHideFlags: 0
@@ -13166,7 +13166,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129742135}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
