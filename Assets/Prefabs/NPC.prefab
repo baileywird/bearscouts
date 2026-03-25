@@ -157,6 +157,7 @@ MonoBehaviour:
   dialogueText: {fileID: 0}
   nameText: {fileID: 0}
   portraitImage: {fileID: 0}
+  ID: 3
 --- !u!95 &7267553911768104296
 Animator:
   serializedVersion: 7
