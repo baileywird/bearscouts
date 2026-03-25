@@ -20,9 +20,6 @@ public class NPC : MonoBehaviour, IInteractable
 
 	public void Interact()
 	{
-		// if(dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
-			return;
-
 		if (isDialogueActive)
 		{
 			NextLine();
