@@ -10,13 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
-  m_Name: TestDialogue
+  m_Name: Black_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: test
+  npcName: Black Bear
   npcPortrait: {fileID: 0}
   dialogueLines:
-  - hello
-  - please work
+  - "Hey! New here right? Don\u2019t worry, it doesn\u2019t take long to get the
+    hang of how Camp Koda works...didn\u2019t for me anyway."
+  - "I\u2019ve been coming here since I was a fresh cub, pretty sure I\u2019ve got
+    more badges than the other bears combined."
+  - "You may wanna do some pushups, tug of war contest is coming up next week...as
+    long as you have me on your team you\u2019ll be fine!"
   autoProgressLines: 0100
   autoProgressDelay: 1.5
   typingSpeed: 0.05

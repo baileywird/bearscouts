@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public GameObject dialoguePanel;
 	public TMP_Text dialogueText, nameText;
 	public Image portraitImage;
+	public int ID;
 
 	private int dialogueIndex;
 	private bool isTyping, isDialogueActive;
@@ -20,9 +21,6 @@ public class NPC : MonoBehaviour, IInteractable
 
 	public void Interact()
 	{
-		// if(dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
-			return;
-
 		if (isDialogueActive)
 		{
 			NextLine();
