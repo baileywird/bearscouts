@@ -15,8 +15,10 @@ MonoBehaviour:
   npcName: test
   npcPortrait: {fileID: 0}
   dialogueLines:
-  - hello
-  - please work
+  - Zzzzzz...
+  - Hmm? Oh. Hey, how's it hangin?
+  - Got any sunscreen? I'm kinds getting a weird tan line.
+  - Eh, never mind actually... Zzzz...
   autoProgressLines: 0100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
