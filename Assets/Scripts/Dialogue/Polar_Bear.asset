@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Polar_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: test
+  npcName: Polar Bear
   npcPortrait: {fileID: 0}
   dialogueLines:
   - Zzzzzz...
   - Hmm? Oh. Hey, how's it hangin?
-  - Got any sunscreen? I'm kinds getting a weird tan line.
+  - Got any sunscreen? I'm kinda getting a weird tan line.
   - Eh, never mind actually... Zzzz...
   autoProgressLines: 0100
   autoProgressDelay: 1.5

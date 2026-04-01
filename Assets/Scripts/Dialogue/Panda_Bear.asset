@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Panda_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: test
+  npcName: Panda Bear
   npcPortrait: {fileID: 0}
   dialogueLines:
   - Um...hi.
