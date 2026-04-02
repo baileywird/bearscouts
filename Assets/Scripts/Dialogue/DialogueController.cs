@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,8 @@ public class DialogueController : MonoBehaviour
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
+    public Transform choiceContainer;
+    public GameObject choiceButtonPrefab;
 
     public NPCDialogue dialogueData;
     private DialogueController dialogueUI;
@@ -34,5 +37,17 @@ public class DialogueController : MonoBehaviour
     public void SetDialogueText(string text)
     {
         dialogueText.text = text;
+    }
+
+    public void ClearChoice()
+    {
+        foreach (Transform child in choiceContainer) Destroy(child.gameObject);
+    }
+
+    public void CreateChoiceButton(string choiceText, UnityEngine.Events.UnityAction onClick)
+    {
+        GameObject choiceButton = Instantiate(choiceButtonPrefab, choiceContainer);
+        choiceButton.GetComponentInChildren<TMP_Text>().text = choiceText;
+        choiceButton.GetComponent<Button>().onClick.AddListener(onClick);
     }
 }
