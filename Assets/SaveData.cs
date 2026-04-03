@@ -9,4 +9,7 @@ public class SaveData
     public Vector3 playerPosition;
     public string mapBoundary;
     public List<InventorySaveData> inventorySaveData;
+    public List<QuestProgress> questProgressData;
+    public List<string> handinQuestIDs;
 }
+

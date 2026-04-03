@@ -23,9 +23,11 @@ public class SaveController : MonoBehaviour
     {
         SaveData saveData = new SaveData
         {
-           playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
-           mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name,
-           inventorySaveData = inventoryController.GetInventoryItems()
+            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
+            mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name,
+            inventorySaveData = inventoryController.GetInventoryItems(),
+            questProgressData = QuestController.Instance.activateQuests,
+            handinQuestIDs = QuestController.Instance.handinQuestIDs
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
     }
@@ -39,6 +41,9 @@ public class SaveController : MonoBehaviour
             FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
 
             inventoryController.SetInventoryItems(saveData.inventorySaveData);
+
+            QuestController.Instance.LoadQuestProgress(saveData.questProgressData);
+            QuestController.Instance.handinQuestIDs = saveData.handinQuestIDs; 
         }
         else
         {
