@@ -16,10 +16,25 @@ MonoBehaviour:
   npcPortrait: {fileID: -217821773, guid: a7369c70ad3c6724a9e8f2fa6cee0adc, type: 3}
   dialogueLines:
   - Hey Cub! Start settling in and get to know the other bears!
-  - "There\u2019s lots to explore, make sure to use that map!"
+  - Move along, little guy! Your new friends are waiting around the camp!
   - "C\u2019mon cub, don\u2019t be shy. Go make some friends."
-  autoProgressLines: 0100
+  - '''Atta cub! You''ll find Brown bear, Panda bear, and Black bear around the camp. 
+    Come find me once you''ve talked to them all.'
+  - Look at you, makin' all those friends!
+  - This calls for celebration. Here's your first badge -- you've earned it!
+  autoProgressLines: 010000000100
+  endDialogueLines: 000101010001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - ...
+    - I'm on it!
+    nextDialogueIndexes: 0200000003000000
+    givesQuest: 0101
+  questInProgressIndex: 1
+  questCompletedIndex: 4
+  quest: {fileID: 11400000, guid: 369c37fea17be2e4e9878e6487811443, type: 2}

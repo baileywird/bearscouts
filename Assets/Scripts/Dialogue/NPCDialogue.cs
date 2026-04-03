@@ -7,7 +7,7 @@ public class DialogueChoice
     public int dialogueIndex;
     public string[] choices;
     public int[] nextDialogueIndexes; //where choice leads
-    public bool[] givesQuest; //if choice gives quest
+    public bool[] givesQuest; //if choice gives quesst
 }
 
 [CreateAssetMenu(fileName = "NewNPCDialogue", menuName = "NPC Dialogue")]

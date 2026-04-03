@@ -17,23 +17,8 @@ MonoBehaviour:
   questName: Beary Friendly
   description: Meet your new friends at Camp Koda!
   objectives:
-  - objectiveID: 
-    description: 
+  - objectiveID: 3
+    description: 'Talk to fellow campers '
     type: 1
-    requiredAmount: 0
-    currentAmount: 0
-  - objectiveID: 
-    description: 
-    type: 1
-    requiredAmount: 0
-    currentAmount: 0
-  - objectiveID: 
-    description: 
-    type: 1
-    requiredAmount: 0
-    currentAmount: 0
-  - objectiveID: 
-    description: 
-    type: 1
-    requiredAmount: 0
+    requiredAmount: 3
     currentAmount: 0
