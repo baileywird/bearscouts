@@ -7985,7 +7985,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 151993543}
   m_HandleRect: {fileID: 151993542}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -11233,7 +11233,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.061615, y: 4.8877788, z: -10}
+  m_LocalPosition: {x: -2.0616152, y: 4.88781, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21980,7 +21980,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
-  ID: 0
+  npcID: '"black_bear"'
 --- !u!213 &1204441923
 Sprite:
   m_ObjectHideFlags: 0
@@ -47005,7 +47005,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
-  ID: 0
+  npcID: '"scout_master"'
 --- !u!61 &1560347507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47609,6 +47609,55 @@ Transform:
   - {fileID: 1560347505}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1715031664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715031665}
+  - component: {fileID: 1715031666}
+  m_Layer: 0
+  m_Name: NPCDictionary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715031665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715031664}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.3252, y: 0.5485201, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1964852624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1715031666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715031664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06016b99ba810c945a3c320404aa8497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDictionary
+  NPCObjects:
+  - {fileID: 1190723685}
+  - {fileID: 2113154168}
+  - {fileID: 2037297933}
+  - {fileID: 1560347506}
 --- !u!114 &1716849602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49848,6 +49897,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1715031665}
   - {fileID: 1352998028}
   - {fileID: 1317679592}
   - {fileID: 93124186}
@@ -50701,7 +50751,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
-  ID: 0
+  npcID: '"polar_bear"'
 --- !u!1 &2037355712
 GameObject:
   m_ObjectHideFlags: 0
@@ -51272,7 +51322,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
-  ID: 0
+  npcID: '"panda_bear"'
 --- !u!1 &2117815746
 GameObject:
   m_ObjectHideFlags: 0

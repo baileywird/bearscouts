@@ -18,8 +18,13 @@ MonoBehaviour:
   - Um...hi.
   - "It\u2019s your first year, too, right? I\u2019m kinda nervous."
   - I hope dinner is good tonight...
-  autoProgressLines: 0100
+  autoProgressLines: 010001
+  endDialogueLines: 000100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

@@ -19,8 +19,13 @@ MonoBehaviour:
   - Hmm? Oh. Hey, how's it hangin?
   - Got any sunscreen? I'm kinda getting a weird tan line.
   - Eh, never mind actually... Zzzz...
-  autoProgressLines: 0100
+  autoProgressLines: 01000001
+  endDialogueLines: 00010000
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

@@ -1,8 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Security.Permissions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using System.Security.Permissions;
 
 public class NPC : MonoBehaviour, IInteractable
 {
@@ -10,7 +11,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public GameObject dialoguePanel;
 	public TMP_Text dialogueText, nameText;
 	public Image portraitImage;
-	public int ID;
+	public string npcID;
 
 	private DialogueController dialogueUI;
 	private int dialogueIndex;
@@ -183,7 +184,12 @@ public class NPC : MonoBehaviour, IInteractable
 
 	public void EndDialogue()
 	{
-		if(questState == QuestState.Completed && !QuestController.Instance.IsQuestHandedIn(dialogueData.quest.questID))
+		//mark npc as spoken to in dict & feed that info to quest controller
+		Debug.Log("EndDialogue called for: " + npcID);
+		NPCDictionary.Instance.MarkSpokenTo(npcID);
+        QuestController.Instance.CheckNPCsSpokenTo();
+
+        if (questState == QuestState.Completed && !QuestController.Instance.IsQuestHandedIn(dialogueData.quest.questID))
 		{
 			//handle quest completion
 			HandleQuestCompletion(dialogueData.quest);
@@ -193,7 +199,11 @@ public class NPC : MonoBehaviour, IInteractable
 		isDialogueActive = false;
 		dialogueUI.SetDialogueText("");
 		dialogueUI.ShowDialogueUI(false);
-		// PauseController.SetPause(false);
+	}
+
+	//add npc to sleeper list once spoken to. list is used to trigger quest completion
+	public void AddToSpokenToList()	{
+		//npc will be identified by public string ID
 	}
 
 	void HandleQuestCompletion(Quest quest)

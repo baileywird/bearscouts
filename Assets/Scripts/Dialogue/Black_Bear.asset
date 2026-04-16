@@ -22,7 +22,12 @@ MonoBehaviour:
   - "You may wanna do some pushups, tug of war contest is coming up next week...as
     long as you have me on your team you\u2019ll be fine!"
   autoProgressLines: 0100
+  endDialogueLines: 000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices: []
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

@@ -24,7 +24,7 @@ public class Quest : ScriptableObject
 
 public class QuestObjective
 {
-    public string objectiveID; //natches with item ID to collect, NPC to talk to, etc. 
+    public string objectiveID; //matches with item ID to collect, NPC to talk to, etc. 
     public string description;
     public ObjectiveType type;
     public int requiredAmount;

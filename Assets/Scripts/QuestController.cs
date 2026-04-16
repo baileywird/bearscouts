@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,6 +31,7 @@ public class QuestController : MonoBehaviour
 
     public bool IsQuestActive(string questID) => activateQuests.Exists(q => q.QuestID == questID);
 
+    //For collect item quests
     public void CheckInventoryForQuests()
     {
         Dictionary<int, int> itemCounts = InventoryController.Instance.GetItemCounts();
@@ -46,6 +48,36 @@ public class QuestController : MonoBehaviour
                 if(questObjective.currentAmount != newAmount)
                 {
                     questObjective.currentAmount = newAmount;
+                }
+            }
+        }
+        questUI.UpdateQuestUI();
+    }
+
+    //For talk to NPC quests
+    public void CheckNPCsSpokenTo()
+    {
+        Debug.Log("Function is called");
+        foreach (QuestProgress quest in activateQuests)
+        {
+            foreach (QuestObjective questObjective in quest.objectives)
+            {
+                Debug.Log("Objective type: " + questObjective.type);
+                if (questObjective.type != ObjectiveType.TalkNPC) continue;
+
+                //query dictionary and update current amount of npcs spoken to
+                bool state = NPCDictionary.Instance.QueryNPCState(questObjective.objectiveID);
+                Debug.Log("NPC: " + questObjective.objectiveID + "state: " + state);
+
+                if (state == true)
+                {
+                    questObjective.currentAmount = 1;
+                    Debug.Log("current amount = " + questObjective.currentAmount);
+                }
+                else
+                {
+                    questObjective.currentAmount = 0;
+                    Debug.Log("current amount = " + questObjective.currentAmount);
                 }
             }
         }
