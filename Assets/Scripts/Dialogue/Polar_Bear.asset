@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Polar_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Polar Bear
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: -1677726039, guid: 88e2d6b2faee2454091b49a979ff47f4, type: 3}
   dialogueLines:
   - Zzzzzz...
   - Hmm? Oh. Hey, how's it hangin?

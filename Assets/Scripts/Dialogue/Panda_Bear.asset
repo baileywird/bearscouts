@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Panda_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Panda Bear
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: 2069342117, guid: a48f54eca4695fc4c93bb4b916041ee8, type: 3}
   dialogueLines:
   - Um...hi.
   - "It\u2019s your first year, too, right? I\u2019m kinda nervous."

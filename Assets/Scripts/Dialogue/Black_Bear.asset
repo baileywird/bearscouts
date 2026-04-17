@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Black_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Black Bear
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: -2063535435, guid: 2277d390f85784b4886058b001cd41e9, type: 3}
   dialogueLines:
   - "Hey! New here right? Don\u2019t worry, it doesn\u2019t take long to get the
     hang of how Camp Koda works...didn\u2019t for me anyway."
