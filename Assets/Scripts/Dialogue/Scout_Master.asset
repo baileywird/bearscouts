@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scout_Master
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Scout Master
-  npcPortrait: {fileID: -217821773, guid: a7369c70ad3c6724a9e8f2fa6cee0adc, type: 3}
+  npcPortrait: {fileID: -1112316905, guid: 8e7b0eb18c8ac04418119aaa1c3e8433, type: 3}
   dialogueLines:
   - Hey Cub! Start settling in and get to know the other bears!
   - Move along, little guy! Your new friends are waiting around the camp!
