@@ -12,6 +12,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public TMP_Text dialogueText, nameText;
 	public Image portraitImage;
 	public string npcID;
+	public Animator playerAnimator;
 
 	private DialogueController dialogueUI;
 	private int dialogueIndex;
@@ -210,5 +211,6 @@ public class NPC : MonoBehaviour, IInteractable
 	void HandleQuestCompletion(Quest quest)
 	{
 		QuestController.Instance.HandinQuest(quest.questID);
+		playerAnimator.SetTrigger("ReceiveBadge");
 	}
 }
