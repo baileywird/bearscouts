@@ -32,8 +32,8 @@ RectTransform:
   m_GameObject: {fileID: 4176270787177635810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.14222223}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4002781579563514975}
   m_Father: {fileID: 0}
@@ -41,7 +41,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 56.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8772204263920312023
 CanvasRenderer:
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -306787472437928336, guid: c0f8995c19d853e42933e59c4921547a, type: 3}
+  m_Sprite: {fileID: 943271288, guid: e3707211bfda93f44a7a2f3a0bef9eff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!225 &8733546377326802559
 CanvasGroup:
@@ -172,11 +172,11 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -306787472437928336, guid: c0f8995c19d853e42933e59c4921547a, type: 3}
+  m_Sprite: {fileID: 943271288, guid: e3707211bfda93f44a7a2f3a0bef9eff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -216,8 +216,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.113910735
+  m_Offset: {x: 0.004, y: -0.058}
+  m_Radius: 0.00784
 --- !u!1 &4882461403090822300
 GameObject:
   m_ObjectHideFlags: 0
