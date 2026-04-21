@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c364e599daddbb949924c8d23136a001
+guid: bdcc8bb9409162842963a69ad9e7a0a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: polarSleeping_0
+      name: A. Flower sprite_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 34
-        height: 22
+        x: 9
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6867743e7a11994185ef11e0b20e9b3
-      internalID: -1914435864
+      spriteID: 514bc4020dd0613479ec1838838460d9
+      internalID: 1979203242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_1
+      name: A. Flower sprite_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 1
-        width: 34
-        height: 22
+        x: 41
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c9af4241ed8c84a81ddda2e4f57c17
-      internalID: -1309280528
+      spriteID: 4b5da7321b78bd9468042df55eac4d29
+      internalID: -813308210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_2
+      name: A. Flower sprite_2
       rect:
         serializedVersion: 2
-        x: 102
-        y: 1
-        width: 34
-        height: 22
+        x: 73
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,42 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 858335e917d614c48b53e3089c0ebd63
-      internalID: -1916666208
+      spriteID: faa3bf2a83c1d894eb6ed87ebab3e759
+      internalID: -2028412410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_3
+      name: A. Flower sprite_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 15
-        width: 8
-        height: 6
-      alignment: 9
-      pivot: {x: -4.45166, y: 0.22118998}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e91e5431725ea904aacffb82aa7f9cd4
-      internalID: -411964175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: polarSleeping_4
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 1
-        width: 34
-        height: 22
+        x: 105
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,42 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3be32034360b294ba248db86e513515
-      internalID: -347283854
+      spriteID: a3b5da7749371fe479a575805b539fb8
+      internalID: -2115625904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_5
+      name: A. Flower sprite_4
       rect:
         serializedVersion: 2
-        x: 194
-        y: 19
-        width: 5
-        height: 5
-      alignment: 9
-      pivot: {x: 5.5514956, y: 0.0768383}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d259b23ffb64a5d46b25a46d5e5c4942
-      internalID: 996734541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: polarSleeping_6
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 1
-        width: 34
-        height: 22
+        x: 137
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9826d967dc02ea408160c1d0d9d87bd
-      internalID: -126481751
+      spriteID: c6578f95ee026074fa472ac85dbd5b15
+      internalID: 1355578452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_7
+      name: A. Flower sprite_5
       rect:
         serializedVersion: 2
-        x: 246
-        y: 1
-        width: 34
-        height: 22
+        x: 169
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa696ab4ade14e243aa7614715282a24
-      internalID: 182644191
+      spriteID: e949ebda4772cbb4f98c4c583274f2b6
+      internalID: -602247438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_8
+      name: A. Flower sprite_6
       rect:
         serializedVersion: 2
-        x: 294
-        y: 1
-        width: 34
-        height: 22
+        x: 201
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ddfb64d6cefa8444ba5c4c6daaf2055
-      internalID: -460910054
+      spriteID: 46fd0ac0094d53b47b2e8b2d0dd00aa9
+      internalID: 962674039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: polarSleeping_9
+      name: A. Flower sprite_7
       rect:
         serializedVersion: 2
-        x: 342
-        y: 1
-        width: 34
-        height: 22
+        x: 233
+        y: 9
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,52 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1866b44894e683049b9de9069bf98cbb
-      internalID: 1853901392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: polarSleeping_10
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 15
-        width: 6
-        height: 4
-      alignment: 9
-      pivot: {x: 2.0167236, y: -1.3736004}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0415c43afed4b44409d23ac15a592dca
-      internalID: -766387086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: polarSleeping_11
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 15
-        width: 2
-        height: 2
-      alignment: 9
-      pivot: {x: 0.5, y: -0.14683914}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51373ba319902434fbd98ab94532294c
-      internalID: 959071335
+      spriteID: c9e9e4e62670b114bbc1c2485d68e477
+      internalID: 12594300
       vertices: []
       indices: 
       edges: []
@@ -364,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b2d6c04ece6844246ba8e20e1e669226
+    spriteID: 65524e8dca85a3e41a0a923b73cd4668
     internalID: 0
     vertices: []
     indices: 
@@ -372,22 +284,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      polarSleeping_0: -1914435864
-      polarSleeping_1: -1309280528
-      polarSleeping_10: -766387086
-      polarSleeping_11: 959071335
-      polarSleeping_2: -1916666208
-      polarSleeping_3: -411964175
-      polarSleeping_4: -347283854
-      polarSleeping_5: 996734541
-      polarSleeping_6: -126481751
-      polarSleeping_7: 182644191
-      polarSleeping_8: -460910054
-      polarSleeping_9: 1853901392
+      A. Flower sprite_0: 1979203242
+      A. Flower sprite_1: -813308210
+      A. Flower sprite_2: -2028412410
+      A. Flower sprite_3: -2115625904
+      A. Flower sprite_4: 1355578452
+      A. Flower sprite_5: -602247438
+      A. Flower sprite_6: 962674039
+      A. Flower sprite_7: 12594300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

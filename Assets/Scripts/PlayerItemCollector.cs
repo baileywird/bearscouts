@@ -6,6 +6,7 @@ public class PlayerItemCollector : MonoBehaviour
 {
     private InventoryController inventoryController;
     // Start is called once before the first frame update
+    public AudioClip pickupSound;
 
     void Start()
     {
@@ -16,6 +17,8 @@ public class PlayerItemCollector : MonoBehaviour
     {
         if (collision.CompareTag("Item"))
         {
+            AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
+
             Item item = collision.GetComponent<Item>();
             if(item != null)
             {
