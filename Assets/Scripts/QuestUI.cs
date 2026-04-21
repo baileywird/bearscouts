@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class QuestUI : MonoBehaviour
 {
@@ -31,7 +31,10 @@ public class QuestUI : MonoBehaviour
             TMP_Text questNameText = entry.transform.Find("QuestNameText").GetComponent<TMP_Text>();
             Transform objectiveList = entry.transform.Find("ObjectiveList");
 
-            questNameText.text = quest.quest.name;
+
+            Debug.Log("Quest object: " + quest.quest);
+            Debug.Log("Quest name: " + quest.quest?.questName);
+            questNameText.text = quest.quest.questName;
 
             foreach(var objective in quest.objectives)
             {

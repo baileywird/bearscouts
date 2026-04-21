@@ -64,7 +64,7 @@ public class NPC : MonoBehaviour, IInteractable
 			isDialogueActive = true;
 
 		dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
-		dialogueUI.ShowDialogueUI(true);
+		dialogueUI.ShowDialogueUI(true, this);
         // PauseController.SetPause(true);
 
         DisplayCurrentLine();
@@ -104,10 +104,11 @@ public class NPC : MonoBehaviour, IInteractable
 		//clear out existing choices
 		dialogueUI.ClearChoice();
 
-		//check end dialogue lines
-		if(dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
+        //check end dialogue lines
+        Debug.Log("dialogueIndex: " + dialogueIndex + " endDialogueLines length: " + dialogueData.endDialogueLines.Length + " value: " + dialogueData.endDialogueLines[dialogueIndex]);
+        if (dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
 		{
-			EndDialogue();
+            EndDialogue();
 			return;
 		}
 
@@ -198,7 +199,7 @@ public class NPC : MonoBehaviour, IInteractable
 		StopAllCoroutines();
 		isDialogueActive = false;
 		dialogueUI.SetDialogueText("");
-		dialogueUI.ShowDialogueUI(false);
+		dialogueUI.ShowDialogueUI(false, this);
 	}
 
 	//add npc to sleeper list once spoken to. list is used to trigger quest completion

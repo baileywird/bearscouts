@@ -1,3 +1,4 @@
+using System.IO.Pipes;
 using System.Reflection;
 using System.Security.Cryptography;
 using TMPro;
@@ -16,6 +17,8 @@ public class DialogueController : MonoBehaviour
 
     public NPCDialogue dialogueData;
     private DialogueController dialogueUI;
+    private NPC currentNPC;
+
     public int ID;
 
     void Awake()
@@ -24,9 +27,14 @@ public class DialogueController : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    public void ShowDialogueUI(bool show)
+    public void ShowDialogueUI(bool show, NPC npc = null)
     {
         dialoguePanel.SetActive(show);
+
+        if(show)
+        {
+            currentNPC = npc;
+        }
     }
 
     public void SetNPCInfo (string npcName, Sprite portrait)
@@ -38,6 +46,11 @@ public class DialogueController : MonoBehaviour
     public void SetDialogueText(string text)
     {
         dialogueText.text = text;
+    }
+
+    public void CloseDialogue()
+    {
+        currentNPC?.EndDialogue();
     }
 
     public void ClearChoice()
