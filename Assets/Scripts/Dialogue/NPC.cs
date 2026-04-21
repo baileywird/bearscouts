@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public Image portraitImage;
 	public string npcID;
 	public Animator playerAnimator;
+	public GameObject badgeIcon;
 
 	private DialogueController dialogueUI;
 	private int dialogueIndex;
@@ -191,26 +192,31 @@ public class NPC : MonoBehaviour, IInteractable
 		NPCDictionary.Instance.MarkSpokenTo(npcID);
         QuestController.Instance.CheckNPCsSpokenTo();
 
+		StopAllCoroutines();
+
         if (questState == QuestState.Completed && !QuestController.Instance.IsQuestHandedIn(dialogueData.quest.questID))
 		{
 			//handle quest completion
 			HandleQuestCompletion(dialogueData.quest);
         }
 
-		StopAllCoroutines();
 		isDialogueActive = false;
 		dialogueUI.SetDialogueText("");
 		dialogueUI.ShowDialogueUI(false, this);
 	}
 
-	//add npc to sleeper list once spoken to. list is used to trigger quest completion
-	public void AddToSpokenToList()	{
-		//npc will be identified by public string ID
+	IEnumerator DisplayBadge()
+	{
+		badgeIcon.SetActive(true);
+		yield return new WaitForSeconds(1.5f);
+		badgeIcon.SetActive(false);
 	}
 
 	void HandleQuestCompletion(Quest quest)
 	{
 		QuestController.Instance.HandinQuest(quest.questID);
 		playerAnimator.SetTrigger("ReceiveBadge");
+
+		StartCoroutine(DisplayBadge());
 	}
 }
