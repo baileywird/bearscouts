@@ -10374,6 +10374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapTransition
   mapBoundry: {fileID: 280184765}
+  isDefault: 0
   direction: 3
   additivePos: 0.25
 --- !u!61 &264729590
@@ -11619,6 +11620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapTransition
   mapBoundry: {fileID: 1419349840}
+  isDefault: 0
   direction: 2
   additivePos: 0.25
 --- !u!4 &379072566 stripped
@@ -12870,7 +12872,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3735592, y: 2.8125894, z: -10}
+  m_LocalPosition: {x: -2.0617614, y: 2.812129, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24172,7 +24174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a997d388c85237742821daa135e14ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapTransition
-  mapBoundry: {fileID: 280184765}
+  mapBoundry: {fileID: 764281761}
+  isDefault: 1
   direction: 1
   additivePos: 0.24
 --- !u!1 &1165044505
@@ -49792,6 +49795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapTransition
   mapBoundry: {fileID: 764281761}
+  isDefault: 0
   direction: 0
   additivePos: 0.24
 --- !u!1 &1513385504
@@ -51854,6 +51858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757eb8fe64fe28b4b8ba54c6c9a7db95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveController
+  defaultBoundry: {fileID: 0}
 --- !u!114 &1729018524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54244,6 +54249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757eb8fe64fe28b4b8ba54c6c9a7db95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveController
+  defaultBoundry: {fileID: 764281761}
 --- !u!114 &1964852629
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,12 +2,13 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEngine;
+using UnityEngine; 
 
 public class SaveController : MonoBehaviour
 {
     private string saveLocation;
     private InventoryController inventoryController;
+    [SerializeField] PolygonCollider2D defaultBoundry;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -47,6 +48,12 @@ public class SaveController : MonoBehaviour
         }
         else
         {
+            CinemachineConfiner confiner = FindObjectOfType<CinemachineConfiner>();
+            Debug.Log("Current confiner: " + confiner.m_BoundingShape2D);
+
+            confiner.m_BoundingShape2D = defaultBoundry;
+            Debug.Log("Updated confiner: " + confiner.m_BoundingShape2D);
+
             SaveGame(); //create new file
         }
     }

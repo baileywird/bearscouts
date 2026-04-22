@@ -8,11 +8,25 @@ using UnityEngine;
 public class MapTransition : MonoBehaviour
 {
     [SerializeField] PolygonCollider2D mapBoundry;
+    [SerializeField] bool isDefault;
     CinemachineConfiner confiner;
     [SerializeField] Direction direction;
     [SerializeField] float additivePos = 1f;
 
     enum Direction { Up, Down, Left, Right }
+
+    private void Start()
+    {
+        if(isDefault)
+        {
+            Debug.Log("Setting default boundary: " + mapBoundry.name + " confiner: " + confiner);
+            confiner.m_BoundingShape2D = mapBoundry;
+            confiner.InvalidatePathCache();
+
+            confiner.enabled = false;
+            confiner.enabled = true;
+        }
+    }
 
     private void Awake()
     {
