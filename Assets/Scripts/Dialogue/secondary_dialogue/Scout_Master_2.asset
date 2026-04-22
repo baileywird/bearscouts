@@ -17,9 +17,12 @@ MonoBehaviour:
   dialogueLines:
   - You're ready to get started on your first big badge, cub! The firestarter badge!
     You can check your scout book for details.
-  - If you're not sure what to do to get that badge, I'll betcha Black Bear can help
-    you out.
-  - Nice work, cub! Let's get you that badge.
+  - If you're not sure what to do to get the sticks and stones, I'll betcha Black
+    Bear can help you out. Once you find everything, come talk to me.
+  - Nice work, cub! You know, I can't wait to celebrate this badge with a campfire,
+    but... not all our campers have arrived yet. I know you're excited, cub -- I
+    am too! Sit tight with me for now, kiddo, it'll be worth the wait... and take
+    your badge, but don't forget that the real fun starts tonight!
   - Looking good! You'll have that sash filled in no time.
   autoProgressLines: 01000000
   endDialogueLines: 00000001

@@ -18,11 +18,11 @@ MonoBehaviour:
   - Hey Cub! Start settling in and get to know the other bears!
   - Move along, little guy! Your new friends are waiting around the camp!
   - "C\u2019mon cub, don\u2019t be shy. Go make some friends."
-  - '''Atta cub! You''ll find Polar bear, Panda bear, and Black bear around the camp. 
-    Come find me once you''ve talked to them all.'
+  - '''Atta cub! You''ll find Polar bear, Panda bear, Sloth Bear, and Black bear
+    around the camp.  Come find me once you''ve talked to them all.'
   - Look at you, makin' all those friends!
   - Good job, looks like you've earned your first badge!
-  autoProgressLines: 010000000100
+  autoProgressLines: 010001000100
   endDialogueLines: 000101010001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
