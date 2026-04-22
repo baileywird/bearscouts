@@ -13,6 +13,8 @@ public class MapTransition : MonoBehaviour
     [SerializeField] Direction direction;
     [SerializeField] float additivePos = 1f;
 
+    private static bool isTransitioning = false;
+
     enum Direction { Up, Down, Left, Right }
 
     private void Start()
@@ -33,12 +35,26 @@ public class MapTransition : MonoBehaviour
         confiner = FindObjectOfType<CinemachineConfiner>();
     }
     
+    IEnumerator ResetTransition()
+    {
+        yield return new WaitForSeconds(0.2f);
+        isTransitioning = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (isTransitioning) return;
+
         if (collision.gameObject.CompareTag("Player"))
         {
+            isTransitioning = true;
+
             confiner.m_BoundingShape2D = mapBoundry;
             UpdatePlayerPosition(collision.gameObject);
+
+            Debug.Log("Setting new boundary: " + mapBoundry.name);
+
+            StartCoroutine(ResetTransition());
         }
     }
 

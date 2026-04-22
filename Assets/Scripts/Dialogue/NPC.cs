@@ -15,6 +15,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public string npcID;
 	public Animator playerAnimator;
 	public GameObject badgeIcon;
+	public EndSequence endSequence;
 
 	private DialogueController dialogueUI;
 	private int dialogueIndex;
