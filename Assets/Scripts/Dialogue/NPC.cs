@@ -229,8 +229,12 @@ public class NPC : MonoBehaviour, IInteractable
 	void HandleQuestCompletion(Quest quest)
 	{
 		QuestController.Instance.HandinQuest(quest.questID);
-		playerAnimator.SetTrigger("ReceiveBadge");
 
-		StartCoroutine(DisplayBadge());
+		if (playerAnimator != null)
+		{
+			playerAnimator.SetTrigger("ReceiveBadge");
+			StartCoroutine(DisplayBadge());
+		}
+
 	}
 }
