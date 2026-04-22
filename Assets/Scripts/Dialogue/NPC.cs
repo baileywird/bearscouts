@@ -13,6 +13,7 @@ public class NPC : MonoBehaviour, IInteractable
 	public TMP_Text dialogueText, nameText;
 	public Image portraitImage;
 	public string npcID;
+	public string questName;
 	public Animator playerAnimator;
 	public GameObject badgeIcon;
 	public EndSequence endSequence;
@@ -24,7 +25,15 @@ public class NPC : MonoBehaviour, IInteractable
 	private enum QuestState { NotStarted, InProgress, Completed }
 	private QuestState questState = QuestState.NotStarted;
 
-	private void Start()
+    private void Awake()
+    {
+        if (dialogueUI == null)
+        {
+            dialogueUI = FindObjectOfType<DialogueController>();
+        }
+    }
+
+    private void Start()
 	{
 		dialogueUI = DialogueController.Instance;
 	}
@@ -67,7 +76,8 @@ public class NPC : MonoBehaviour, IInteractable
 
 			isDialogueActive = true;
 
-		dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
+        Debug.Log($"NPC: {gameObject.name} | dialogueUI null? {dialogueUI == null} | dialogueData null? {dialogueData == null}");
+        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
 		dialogueUI.ShowDialogueUI(true, this);
         // PauseController.SetPause(true);
 
@@ -227,6 +237,15 @@ public class NPC : MonoBehaviour, IInteractable
 		badgeIcon.SetActive(false);
 	}
 
+	IEnumerator EndAfterBadge(Quest quest) {
+		yield return StartCoroutine(DisplayBadge());
+
+		if (quest.questName == "Firestarter")
+		{
+			endSequence.PlaySequence();
+		}
+	}
+
 	void HandleQuestCompletion(Quest quest)
 	{
 		QuestController.Instance.HandinQuest(quest.questID);
@@ -235,6 +254,11 @@ public class NPC : MonoBehaviour, IInteractable
 		{
 			playerAnimator.SetTrigger("ReceiveBadge");
 			StartCoroutine(DisplayBadge());
+
+			if (quest.questName == "Firestarter")
+			{
+				StartCoroutine(EndAfterBadge(quest));
+			}
 		}
 
 	}
