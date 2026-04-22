@@ -17,15 +17,15 @@ MonoBehaviour:
   dialogueLines:
   - Zzzzzz...
   - Hmm? Oh. Hey, how's it hangin?
-  - Got any sunscreen? I'm kinda getting a weird tan line.
+  - By the way, you got any sunscreen? I'm kinda getting a weird tan line.
   - Eh, never mind actually... Zzzz...
   autoProgressLines: 01000001
-  endDialogueLines: 00010000
+  endDialogueLines: 00000100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
   choices: []
   questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  questCompletedIndex: 3
+  quest: {fileID: 11400000, guid: 369c37fea17be2e4e9878e6487811443, type: 2}

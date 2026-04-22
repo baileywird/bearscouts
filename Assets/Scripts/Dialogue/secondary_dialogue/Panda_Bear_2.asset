@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Panda_Bear_2
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
-  npcPortrait: {fileID: 0}
-  dialogueLines: []
-  autoProgressLines: 
-  endDialogueLines: 
+  npcName: Panda Bear
+  npcPortrait: {fileID: 2069342117, guid: a48f54eca4695fc4c93bb4b916041ee8, type: 3}
+  dialogueLines:
+  - I hope dinner is good tonight...
+  autoProgressLines: 00
+  endDialogueLines: 01
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
@@ -24,4 +25,4 @@ MonoBehaviour:
   choices: []
   questInProgressIndex: 0
   questCompletedIndex: 0
-  quest: {fileID: 0}
+  quest: {fileID: 11400000, guid: b887808f77049a2409a3db5388ee3d51, type: 2}

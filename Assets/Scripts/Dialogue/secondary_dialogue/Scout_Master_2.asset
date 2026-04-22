@@ -12,16 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Scout_Master_2
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
-  npcPortrait: {fileID: 0}
-  dialogueLines: []
-  autoProgressLines: 
-  endDialogueLines: 
+  npcName: Scout Master
+  npcPortrait: {fileID: -1112316905, guid: 8e7b0eb18c8ac04418119aaa1c3e8433, type: 3}
+  dialogueLines:
+  - You're ready to get started on your first big badge, cub! The firestarter badge!
+    You can check your scout book for details.
+  - If you're not sure what to do to get that badge, I'll betcha Black Bear can help
+    you out.
+  - Nice work, cub! Let's get you that badge.
+  - Looking good! You'll have that sash filled in no time.
+  autoProgressLines: 01000000
+  endDialogueLines: 00000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
-  choices: []
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - Yaaaay!
+    nextDialogueIndexes: 01000000
+    givesQuest: 01
   questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  questCompletedIndex: 2
+  quest: {fileID: 11400000, guid: b887808f77049a2409a3db5388ee3d51, type: 2}

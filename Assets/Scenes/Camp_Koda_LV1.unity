@@ -12489,6 +12489,8 @@ GameObject:
   - component: {fileID: 486868671}
   - component: {fileID: 486868673}
   - component: {fileID: 486868672}
+  - component: {fileID: 486868675}
+  - component: {fileID: 486868674}
   m_Layer: 0
   m_Name: SunBear
   m_TagString: Untagged
@@ -12592,6 +12594,73 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &486868674
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486868670}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.33}
+    newSize: {x: 0.16, y: 0.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.16, y: 0.33}
+  m_EdgeRadius: 0
+--- !u!114 &486868675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486868670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5835cfe068361c841965b3be34c41227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  dialogueData: {fileID: 11400000, guid: 605affd9ad3166847b30fbd0b65f6dfb, type: 2}
+  secondaryDialogueData: {fileID: 11400000, guid: 58486e02598224b43b494bf1edebec88, type: 2}
+  dialoguePanel: {fileID: 350296996}
+  dialogueText: {fileID: 1415776755}
+  nameText: {fileID: 144736725}
+  portraitImage: {fileID: 0}
+  npcID: '"sloth_bear"'
+  playerAnimator: {fileID: 0}
+  badgeIcon: {fileID: 0}
 --- !u!4 &489681744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2618992283507470670, guid: b9947678ed568b545850a9b79b3f0179, type: 3}
@@ -12734,7 +12803,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0616152, y: 4.88781, z: -10}
+  m_LocalPosition: {x: -2.0616152, y: 4.8874936, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24225,12 +24294,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   dialogueData: {fileID: 11400000, guid: 40801ec768b536746acd973384f865d1, type: 2}
+  secondaryDialogueData: {fileID: 11400000, guid: d044c74b5fdc315499b49abb91b6de45, type: 2}
   dialoguePanel: {fileID: 350296996}
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
   npcID: '"black_bear"'
   playerAnimator: {fileID: 0}
+  badgeIcon: {fileID: 0}
 --- !u!213 &1204441923
 Sprite:
   m_ObjectHideFlags: 0
@@ -49986,12 +50057,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   dialogueData: {fileID: 11400000, guid: 6dd28af5791919e44a57e4e256062fcf, type: 2}
+  secondaryDialogueData: {fileID: 11400000, guid: 44b6f014a37014443b2be465ce0961f0, type: 2}
   dialoguePanel: {fileID: 350296996}
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
   npcID: '"scout_master"'
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 1729018520}
+  badgeIcon: {fileID: 721057856}
 --- !u!61 &1560347507
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55001,12 +55074,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   dialogueData: {fileID: 11400000, guid: 983b6a305f1e8094ab4b5d5997e03d5b, type: 2}
+  secondaryDialogueData: {fileID: 11400000, guid: 41d8bc397f56db543a4e57ea1df585a5, type: 2}
   dialoguePanel: {fileID: 350296996}
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
   npcID: '"polar_bear"'
   playerAnimator: {fileID: 0}
+  badgeIcon: {fileID: 0}
 --- !u!1 &2037355712
 GameObject:
   m_ObjectHideFlags: 0
@@ -55920,12 +55995,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   dialogueData: {fileID: 11400000, guid: 9c56cf68f8eb4354fa55b0ddb50eb56c, type: 2}
+  secondaryDialogueData: {fileID: 11400000, guid: e07f7edef35d1c447a633ae92aa237ec, type: 2}
   dialoguePanel: {fileID: 350296996}
   dialogueText: {fileID: 1415776755}
   nameText: {fileID: 144736725}
   portraitImage: {fileID: 1584772944}
   npcID: '"panda_bear"'
   playerAnimator: {fileID: 0}
+  badgeIcon: {fileID: 0}
 --- !u!1 &2117815746
 GameObject:
   m_ObjectHideFlags: 0

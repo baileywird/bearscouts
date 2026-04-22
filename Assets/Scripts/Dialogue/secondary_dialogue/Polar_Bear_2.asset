@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Polar_Bear_2
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
-  npcPortrait: {fileID: 0}
-  dialogueLines: []
-  autoProgressLines: 
-  endDialogueLines: 
+  npcName: Polar Bear
+  npcPortrait: {fileID: -1677726039, guid: 88e2d6b2faee2454091b49a979ff47f4, type: 3}
+  dialogueLines:
+  - Zzzz....
+  - ...... ... ..
+  - Mimimimi...
+  autoProgressLines: 010000
+  endDialogueLines: 000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
   choices: []
   questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  questCompletedIndex: 1
+  quest: {fileID: 11400000, guid: b887808f77049a2409a3db5388ee3d51, type: 2}

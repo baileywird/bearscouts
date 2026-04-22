@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Sloth_Bear_2
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
+  npcName: Sloth Bear
   npcPortrait: {fileID: 0}
-  dialogueLines: []
-  autoProgressLines: 
-  endDialogueLines: 
+  dialogueLines:
+  - What? Now you want a paw print?
+  autoProgressLines: 01
+  endDialogueLines: 01
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
@@ -24,4 +25,4 @@ MonoBehaviour:
   choices: []
   questInProgressIndex: 0
   questCompletedIndex: 0
-  quest: {fileID: 0}
+  quest: {fileID: 11400000, guid: b887808f77049a2409a3db5388ee3d51, type: 2}

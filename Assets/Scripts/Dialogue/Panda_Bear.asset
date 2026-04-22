@@ -26,5 +26,5 @@ MonoBehaviour:
   voicePitch: 1
   choices: []
   questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  questCompletedIndex: 2
+  quest: {fileID: 11400000, guid: 369c37fea17be2e4e9878e6487811443, type: 2}

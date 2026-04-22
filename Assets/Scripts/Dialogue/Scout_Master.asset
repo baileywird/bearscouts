@@ -21,7 +21,7 @@ MonoBehaviour:
   - '''Atta cub! You''ll find Polar bear, Panda bear, and Black bear around the camp. 
     Come find me once you''ve talked to them all.'
   - Look at you, makin' all those friends!
-  - This calls for celebration. Here's your first badge -- you've earned it!
+  - Good job, looks like you've earned your first badge!
   autoProgressLines: 010000000100
   endDialogueLines: 000101010001
   autoProgressDelay: 1.5

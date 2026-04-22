@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Sloth_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
+  npcName: Sloth Bear
   npcPortrait: {fileID: 0}
-  dialogueLines: []
+  dialogueLines:
+  - Oh, just getting to know everyone? Fine. I'm Sloth Bear, you're basically looking
+    at the future master scout. Well, me and Black Bear that is.
   autoProgressLines: 
   endDialogueLines: 
   autoProgressDelay: 1.5
@@ -24,4 +26,4 @@ MonoBehaviour:
   choices: []
   questInProgressIndex: 0
   questCompletedIndex: 0
-  quest: {fileID: 0}
+  quest: {fileID: 11400000, guid: 369c37fea17be2e4e9878e6487811443, type: 2}

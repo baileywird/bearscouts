@@ -19,15 +19,13 @@ MonoBehaviour:
     hang of how Camp Koda works...didn\u2019t for me anyway."
   - "I\u2019ve been coming here since I was a fresh cub, pretty sure I\u2019ve got
     more badges than the other bears combined."
-  - "You may wanna do some pushups, tug of war contest is coming up next week...as
-    long as you have me on your team you\u2019ll be fine!"
   autoProgressLines: 0100
-  endDialogueLines: 000001
+  endDialogueLines: 0000
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
   choices: []
   questInProgressIndex: 0
-  questCompletedIndex: 2
+  questCompletedIndex: 1
   quest: {fileID: 11400000, guid: 369c37fea17be2e4e9878e6487811443, type: 2}

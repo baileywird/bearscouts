@@ -12,16 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20633ce4227fc034bb4b774f3ec8b825, type: 3}
   m_Name: Black_Bear_2
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: 
-  npcPortrait: {fileID: 0}
-  dialogueLines: []
-  autoProgressLines: 
-  endDialogueLines: 
+  npcName: Black Bear
+  npcPortrait: {fileID: -2063535435, guid: 2277d390f85784b4886058b001cd41e9, type: 3}
+  dialogueLines:
+  - You may wanna do some pushups, tug-of-war contest is coming up next week... as
+    long as you have me on your team you'll be fine!
+  - Oh yeah, Scout Master told me I get to putcha to work! You know, since I know
+    this place like the back of my paw... ha!
+  - 'You can find sticks and stones needed for the campfire in the meadow just east
+    of here. '
+  - Woah, you did that pretty fast! I might need to up my game... C'mon, let's go
+    build that fire!
+  autoProgressLines: 01010000
+  endDialogueLines: 00000100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
-  choices: []
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - Help me start a fire!
+    nextDialogueIndexes: 01000000
+    givesQuest: 00
   questInProgressIndex: 0
-  questCompletedIndex: 0
-  quest: {fileID: 0}
+  questCompletedIndex: 3
+  quest: {fileID: 11400000, guid: b887808f77049a2409a3db5388ee3d51, type: 2}
