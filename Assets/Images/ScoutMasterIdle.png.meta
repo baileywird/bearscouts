@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc2b32e95539e5d4fbbbd75c845fdab3
+guid: b2b3f69e11b58ff499f4c49476ed5e00
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: celebcamp_0
+      name: ScoutMasterIdle_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2
-        width: 28
-        height: 29
+        x: 12
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d97bf96708abf646b6dbecf67e0f026
-      internalID: 2016638328
+      spriteID: bc3c67c4387c0054683e6b36210c8ad8
+      internalID: -920122496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_1
+      name: ScoutMasterIdle_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 2
-        width: 28
-        height: 29
+        x: 60
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80de4836cd98ee9418a7a32b19993a53
-      internalID: -1211777680
+      spriteID: 7918003389d00e341a82a991b9ad0525
+      internalID: -1480578011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_2
+      name: ScoutMasterIdle_2
       rect:
         serializedVersion: 2
-        x: 98
-        y: 2
-        width: 28
-        height: 29
+        x: 108
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ad009bc1ebac794fb537e744b9d1018
-      internalID: -2017637640
+      spriteID: 2995e00af8d4464419c4275955fce7e7
+      internalID: 1152092837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_3
+      name: ScoutMasterIdle_3
       rect:
         serializedVersion: 2
-        x: 100
-        y: 24
-        width: 5
-        height: 4
+        x: 156
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81b202fbc4edc2748aa0f4db074cccf2
-      internalID: -1730417492
+      spriteID: 87c4720b6acd9aa4e841270eb0e94c45
+      internalID: 403215363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_4
+      name: ScoutMasterIdle_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 24
-        width: 5
-        height: 4
+        x: 204
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db797a2e19402e9498c99713e5a47d43
-      internalID: -1415851469
+      spriteID: 962bd0e6b20e87245b19b7740a25b7ad
+      internalID: -1151683049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_5
+      name: ScoutMasterIdle_5
       rect:
         serializedVersion: 2
-        x: 145
-        y: 27
-        width: 4
-        height: 4
+        x: 252
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d6c6f2b7ffabc4fa789e3dfbb575f4
-      internalID: -838803041
+      spriteID: 5b6d283882f3dbe44bf5b940e6b35d2c
+      internalID: 2083583443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_6
+      name: ScoutMasterIdle_6
       rect:
         serializedVersion: 2
-        x: 162
-        y: 2
-        width: 28
-        height: 29
+        x: 300
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b692bfe2f00ee39419699854a8db5187
-      internalID: 1619921207
+      spriteID: 0033e88c1b022b64581ef1a38f512aef
+      internalID: -966190752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celebcamp_7
+      name: ScoutMasterIdle_7
       rect:
         serializedVersion: 2
-        x: 194
-        y: 2
-        width: 28
-        height: 29
+        x: 348
+        y: 1
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,162 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 540855ab1833f394fa588014a9da9ade
-      internalID: 310864505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_8
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 2
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 213ee38b0bae94740a6776cadb514456
-      internalID: 598989623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 2
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e76f64c07bd46c48ba39cede1968cdc
-      internalID: 1876376354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_10
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 6
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32100c05eab0862469a70e50a00cfaa3
-      internalID: 1233542509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_11
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 6
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1aac3a4284a3134cb2e1aed081d7303
-      internalID: 1012338471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_12
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 2
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cd0ed08f7ce61249b059810f6a2824f
-      internalID: 1071993254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_13
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 5
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d17bb39164bf5f438d0cd72438805cd
-      internalID: 801072781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celebcamp_14
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 5
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cff434166443b844a80826307e41e758
-      internalID: 2131386639
+      spriteID: 950fecdfe44e75744b6c3ee78fb9a1e3
+      internalID: 1009437383
       vertices: []
       indices: 
       edges: []
@@ -430,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5d707721b81804c40800102890bba153
+    spriteID: 7ffdfbb4d8d58b443a8c932fddcae9a6
     internalID: 0
     vertices: []
     indices: 
@@ -442,21 +288,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      celebcamp_0: 2016638328
-      celebcamp_1: -1211777680
-      celebcamp_10: 1233542509
-      celebcamp_11: 1012338471
-      celebcamp_12: 1071993254
-      celebcamp_13: 801072781
-      celebcamp_14: 2131386639
-      celebcamp_2: -2017637640
-      celebcamp_3: -1730417492
-      celebcamp_4: -1415851469
-      celebcamp_5: -838803041
-      celebcamp_6: 1619921207
-      celebcamp_7: 310864505
-      celebcamp_8: 598989623
-      celebcamp_9: 1876376354
+      ScoutMasterIdle_0: -920122496
+      ScoutMasterIdle_1: -1480578011
+      ScoutMasterIdle_2: 1152092837
+      ScoutMasterIdle_3: 403215363
+      ScoutMasterIdle_4: -1151683049
+      ScoutMasterIdle_5: 2083583443
+      ScoutMasterIdle_6: -966190752
+      ScoutMasterIdle_7: 1009437383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

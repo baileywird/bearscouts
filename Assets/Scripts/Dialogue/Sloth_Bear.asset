@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sloth_Bear
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Sloth Bear
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: 1260616868, guid: aa635a77e82549441819ac80342d03d0, type: 3}
   dialogueLines:
   - Oh, just getting to know everyone? Fine. I'm Sloth Bear, you're basically looking
     at the future master scout. Well, me and Black Bear that is.
