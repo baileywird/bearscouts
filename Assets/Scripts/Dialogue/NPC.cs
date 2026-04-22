@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour, IInteractable
 {
 	public NPCDialogue dialogueData;
+	public NPCDialogue secondaryDialogueData; //temporary 
 	public GameObject dialoguePanel;
 	public TMP_Text dialogueText, nameText;
 	public Image portraitImage;
@@ -74,10 +75,23 @@ public class NPC : MonoBehaviour, IInteractable
 
 	private void SyncQuestState()
 	{
+
 		if (dialogueData.quest == null) return;
 		string questID = dialogueData.quest.questID;
 
-		if (QuestController.Instance.IsQuestCompleted(questID) || QuestController.Instance.IsQuestHandedIn(questID))
+        if (QuestController.Instance.IsQuestHandedIn(questID))
+		{
+			Debug.Log("Swapping to secondary dialogue for: " + npcID);
+            dialogueData = secondaryDialogueData;
+			if (dialogueData == null) return;
+			questID = dialogueData.quest.questID;
+        }
+        Debug.Log("questID after swap: " + questID + " IsCompleted: " + QuestController.Instance.IsQuestCompleted(questID)
+			+ " IsHandedIn: " + QuestController.Instance.IsQuestHandedIn(questID) + " IsActive: "
+			+ QuestController.Instance.IsQuestActive(questID));
+
+
+        if (QuestController.Instance.IsQuestCompleted(questID) || QuestController.Instance.IsQuestHandedIn(questID))
 		{
 			questState = QuestState.Completed;
 		}

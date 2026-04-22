@@ -12,8 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbf3598db5071c4d9d3627ed0f558ea, type: 3}
   m_Name: Firestarter
   m_EditorClassIdentifier: Assembly-CSharp::Quest
-  quest: {fileID: 0}
+  quest: {fileID: 11400000}
   questID: 2817592b-802e-448e-9dcd-a080e1ee458f
-  questName: 
-  description: 
-  objectives: []
+  questName: Firestarter
+  description: Time to celebrate your first night at Camp Koda! Gather materials
+    to build a campfire.
+  objectives:
+  - objectiveID: 1
+    description: Collect Sticks
+    type: 0
+    requiredAmount: 5
+    currentAmount: 0
+  - objectiveID: 2
+    description: Collect Stones
+    type: 0
+    requiredAmount: 5
+    currentAmount: 0

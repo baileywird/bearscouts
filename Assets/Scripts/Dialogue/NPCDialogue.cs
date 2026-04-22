@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueChoice
 {
-    public int dialogueIndex;
+	public int dialogueIndex;
     public string[] choices;
     public int[] nextDialogueIndexes; //where choice leads
     public bool[] givesQuest; //if choice gives quesst
